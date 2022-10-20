@@ -1,0 +1,41 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #cd7195, #8f6dd7, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.main{
+    width: 400px;
+    height: 620px;
+    margin: 10% auto;
+    border-radius: 4px;
+    padding: 2.5rem;
+    background-color: white;
+    text-align: center;
+}
+.checkbox mb-3{
+    text-align:left;
+}
+.profile-img {
+    width: 100px;
+    margin: 0 auto;
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
